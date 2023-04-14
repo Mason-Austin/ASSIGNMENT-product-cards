@@ -1,9 +1,26 @@
-#container{
+.container{
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
-.card{
-  
+.title{
+  border: solid 1px lightblue;
+  text-align: center;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+p:nth-child(2){
+  background-color: darkgray;
+  color: yellow;
+}
+
+#soldOut{
+  position: absolute;
+  top: 60px;
+  left: 620px;
 }
