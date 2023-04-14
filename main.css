@@ -6,6 +6,7 @@
 }
 
 .title{
+  font-family: 'Righteous', cursive;
   border: solid 1px lightblue;
   text-align: center;
 }
@@ -23,4 +24,8 @@ p:nth-child(2){
   position: absolute;
   top: 60px;
   left: 620px;
+}
+
+.card-body{
+  font-family: 'Comfortaa', cursive;
 }
