@@ -24,6 +24,7 @@
   position: absolute;
   top: 60px;
   left: 620px;
+  opacity: .7;
 }
 
 .card-body{
