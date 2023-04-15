@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .title{
@@ -15,7 +15,7 @@
   font-weight:bold;
 }
 
-p:nth-child(2){
+.available{
   background-color: darkgray;
   color: yellow;
 }
@@ -33,4 +33,9 @@ p:nth-child(2){
 p:nth-child(1){
   text-align: justify;
   word-spacing: -2px;
+}
+
+.card{
+  max-width: 33%;
+  flex:1 33% ;
 }
